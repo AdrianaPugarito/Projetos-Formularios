@@ -1,0 +1,33 @@
+P<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Formularios</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div>
+     <form action="/pagina_codigo.php">
+     <!--Primeiro nome -->
+     <labe for="fname">Primeiro nome: </labe>
+   <input type="text" id="fname"  required autocomplete="off" placeholder="Digite seu nome"> <!--required atributo que denota obrigatorio placeholder é para mostrar informação para usuario não se perder-->
+
+   <!--Sobrenome -->
+     <labe for="sname">Sobrenome: </labe>
+   <input type="text" id="sname"  required autocomplete="off" placeholder="Digite seu sobrenome">
+
+   <!--list dropdrown -->
+   <label for="dropdown">Cursos</label>
+ <select name="cursos" id="dropdown">
+   <option value="uxuiweb">UXUI WEB</option>
+   <option value="frontend">FrontEnd</option>
+   <option value="backend">BackEnd</option>
+ </select>
+
+ <input type="submit" value="Enviar">
+
+     </form>
+    </div>
+  </body>
+</html>
